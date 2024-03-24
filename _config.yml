@@ -1,4 +1,5 @@
 ##########
+# collectionbuilder-gh
 # Jekyll Digital Collection Generator, designed for GitHub Pages
 # https://github.com/CollectionBuilder/collectionbuilder-gh
 ##########
@@ -21,12 +22,12 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # title of site appears in banner
 title: Colección de memes
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: lugar donde voy a guardar los memes que me interesan 
+tagline: Colección de memes para mi trabajo
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "lugar donde voy a guardar los memes que me interesan"
+description: "Coleccion de memes que me han interasado para mi trabajp"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Juan Sebastián Leal Ninco
+author: Juan Sebastian Leal Ninco
 
 ##########
 # COLLECTION SETTINGS
@@ -44,6 +45,18 @@ metadata: coleccion_memes
 # organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
 # organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 
+
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code. See docs/google.md
+#
+# Add your google-analytics-id to automatically add the embed code, e.g. "G-123XXXXXX"
+# google-analytics-id:
+# to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
+# google-cse-id: 
+
 ##########
 # ROBOTS EXCLUDE
 #
@@ -58,7 +71,7 @@ metadata: coleccion_memes
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: ["docs/", "Rakefile", "README.md", "LICENSE", "CITATION.cff", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md"]
+exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md]
 # compress CSS output
 sass:
   style: compressed
